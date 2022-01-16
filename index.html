@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Admin & Dashboard</title>
+  <link rel="stylesheet" href="main.css">
+  <!-- box icon -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <i class='bx bx-code-alt'></i>
+      <div class="logo_name">
+        End Dev
+      </div>
+    </div>
+    <ul>
+      <li>
+        <a href="#" class="active">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">
+            Dashboard
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-user'></i>
+          <span class="links_name">
+            Profile
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-truck'></i>
+          <span class="links_name">
+            Sales
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-dollar' ></i>
+          <span class="links_name">
+            Earning
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-user-plus'></i>
+          <span class="links_name">
+            Visitors
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cart-alt'></i>
+          <span class="links_name">
+            Order
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-heart'></i>
+          <span class="links_name">
+            Saved
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">
+            Setting
+          </span>
+        </a>
+      </li>
+      <li class="login">
+        <a href="#">
+          <span class="links_name login_out">
+            Login Out
+          </span>
+          <i class='bx bx-log-out' id="log_out"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- End Sideber -->
+  <section class="home_section">
+    <div class="topbar">
+      <div class="toggle">
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <div class="search_wrapper">
+        <label>
+          <span>
+            <i class='bx bx-search'></i>
+          </span>
+          <input type="search" placeholder="Search...">
+        </label>
+      </div>
+      <div class="user_wrapper">
+        <img src="img/user.jpg" alt="">
+      </div>
+    </div>
+    <!-- End Top Bar -->
+    <div class="card-boxes">
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">9.99</div>
+          <div class="box_topic">Total Order</div>
+        </div>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">15.9</div>
+          <div class="box_topic">Total Sales</div>
+        </div>
+        <i class='bx bxs-cart-add'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">30.20</div>
+          <div class="box_topic">Total Projects</div>
+        </div>
+        <i class='bx bx-cart'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">50.9</div>
+          <div class="box_topic">Total Return</div>
+        </div>
+        <i class='bx bxs-cart-download'></i>
+      </div>
+    </div>
+    <!-- End Card Boxs -->
+    <div class="details">
+      <div class="recent_project">
+        <div class="card_header">
+          <h2>Lastet Projects</h2>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td>Project Name</td>
+              <td>Hours</td>
+              <td>Priority</td>
+              <td>Members</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dropbox Design System</td>
+              <td>34</td>
+              <td>
+                <span class="badge bg_worning">
+                  Meduim
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+5</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Slack Team UI Design</td>
+              <td>47</td>
+              <td>
+                <span class="badge bg_danger">
+                  Higt
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+5</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Github Satellite</td>
+              <td>120</td>
+              <td>
+                <span class="badge bg_info">
+                  Low
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+1</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>3D character Moddelling</td>
+              <td>89</td>
+              <td>
+                <span class="badge bg_worning">
+                  Meduim
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+5</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Web app Design System</td>
+              <td>108</td>
+              <td>
+                <span class="badge bg_seccuss">
+                  Track
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+5</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Github Event Design</td>
+              <td>120</td>
+              <td>
+                <span class="badge bg_info">
+                  Low
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+1</span>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="recent_customers">
+        <div class="card_header">
+          <h2>New Customers</h2>
+        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/avatar-2.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Willams Harris</h4>
+                <span>Willams@gmail.com</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/avatar-3.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Vanessa Tucker</h4>
+                <span>Vanessa@gmail.com</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/avatar-4.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Sharon Lessma</h4>
+                <span>Sharon@gmail.com</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/avatar-5.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Christina Mason</h4>
+                <span>Christina@gmail.com</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/avatar-2.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Willams Harris</h4>
+                <span>Willams@gmail.com</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/avatar-3.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Sharon Lessma</h4>
+                <span>Willams@gmail.com</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
+
+    closeBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("open");
+      // call function
+      changeBtn();
+    });
+
+    function changeBtn() {
+      if(sidebar.classList.contains("open")) {
+        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+      } else {
+        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+      }
+    }
+  </script>
+</body>
+</html>
